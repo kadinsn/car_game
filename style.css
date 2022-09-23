@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: #6c7b2a;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+}
+
+.road {
+    background: #817f85;
+    width: 300px;
+    height: 100vh;
+}
+
+.tree {
+    position: absolute;
+}
+
+.tree1 {
+    transform: translate(-220px, -15vh);
+    width: 150px;
+}
+.tree2 {
+    transform: translate(-240px, 25vh);
+    width: 150px;
+}
+.tree3 {
+    transform: translate(-200px, 70vh);
+    width: 150px;
+}
+.tree4 {
+    transform: translate(200px, -5vh);
+    width: 150px;
+}
+.tree5 {
+    transform: translate(200px, 40vh);
+    width: 150px;
+}
+.tree6 {
+    transform: translate(210px, 80vh);
+    width: 150px;
+}
+.game-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
