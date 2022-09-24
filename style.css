@@ -50,3 +50,6 @@ body {
     border: none;
     padding: 0;
 }
+.game-button img {
+width: 50px;
+}
