@@ -3,7 +3,7 @@ body {
     justify-content: center;
     margin: 0;
     background: #6c7b2a;
-    /* запрещаем скролить */
+    /* запрещаем скролить страницу в браузере */
     overflow: hidden;
 }
 
