@@ -3,6 +3,8 @@ body {
     justify-content: center;
     margin: 0;
     background: #6c7b2a;
+    /* запрещаем скролить */
+    overflow: hidden;
 }
 
 .car {
@@ -46,10 +48,36 @@ body {
     width: 150px;
 }
 .game-button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
     background: transparent;
     border: none;
     padding: 0;
+    cursor: pointer;
+    transition: transform .3s ease;
 }
+
+.game-button:hover {
+    transform: scale(1.2);
+}
+
 .game-button img {
-width: 50px;
+width: 60px;
+height: 60px;
+}
+
+.danger {
+    position: absolute;
+    width: 50px;
+}
+
+.coin {
+    position: absolute;
+    width: 50px;
+}
+
+.arrow {
+    position: absolute;
+    width: 50px;
 }
